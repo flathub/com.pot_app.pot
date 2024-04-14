@@ -23,8 +23,8 @@ modules:
   - name: webkit2gtk-4.0
     sources:
       - type: archive
-        url: https://webkitgtk.org/releases/webkitgtk-2.44.0.tar.xz
-        sha256: c66530e41ba59b1edba4ee89ef20b2188e273bed0497e95084729e3cfbe30c87
+        url: https://webkitgtk.org/releases/webkitgtk-2.44.1.tar.xz
+        sha256: 425b1459b0f04d0600c78d1abb5e7edfa3c060a420f8b231e9a6a2d5d29c5561
         x-checker-data:
           type: html
           url: https://webkitgtk.org/releases/
@@ -132,8 +132,8 @@ modules:
         dest-filename: pot.deb
         only-arches:
           - x86_64
-        url: https://github.com/pot-app/pot-desktop/releases/download/2.7.9/pot_2.7.9_amd64.deb
-        sha256: 2e086d4cc430a3bbc568215495a005649a838834df740e4f12dacd32041798b2
+        url: https://github.com/pot-app/pot-desktop/releases/download/2.7.10/pot_2.7.10_amd64.deb
+        sha256: f341429edb089b429a734e09b62888c0c85919fe06a0320cae07f1b110081fcb
         x-checker-data:
           type: json
           url: https://api.github.com/repos/pot-app/pot-desktop/releases/latest
@@ -145,8 +145,8 @@ modules:
         dest-filename: pot.deb
         only-arches:
           - aarch64
-        url: https://github.com/pot-app/pot-desktop/releases/download/2.7.9/pot_2.7.9_arm64.deb
-        sha256: 7eb68d8f1375c988f55679803328d815537661b6a1387230a48393e2f164ea82
+        url: https://github.com/pot-app/pot-desktop/releases/download/2.7.10/pot_2.7.10_arm64.deb
+        sha256: 0d8e2afc9a091f06624b0021a199e83a2867f1daa25148b24371eb283cb0424e
         x-checker-data:
           type: json
           url: https://api.github.com/repos/pot-app/pot-desktop/releases/latest
