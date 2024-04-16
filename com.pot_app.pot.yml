@@ -126,7 +126,7 @@ modules:
       - tar xf data.*
       - install -Dm755 usr/bin/pot -t /app/bin/
       - cp -a usr/share /app/
-      - install -Dm644 com.pot_app.pot.metainfo.xml -t /app/share/metainfo
+      - install -Dm644 com.pot_app.pot.metainfo.xml -t /app/share/metainfo/
     sources:
       - type: file
         dest-filename: pot.deb
