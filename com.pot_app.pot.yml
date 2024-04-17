@@ -156,4 +156,4 @@ modules:
 
       - type: file
         url: https://raw.githubusercontent.com/pot-app/pot-desktop/master/com.pot_app.pot.metainfo.xml
-        sha256: f9e9aa15188e6ce6704019b226399e3ca2bf8c429d0b53cdef94ad4d6c7973e2
+        sha256: 29091d109b7f80038e5280863a3a84f834a6a88896feecc3d426db395c8d6689
