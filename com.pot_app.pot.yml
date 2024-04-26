@@ -155,5 +155,5 @@ modules:
             + $version + "/pot_" + $version + "_arm64.deb"'
 
       - type: file
-        url: https://raw.githubusercontent.com/pot-app/pot-desktop/master/com.pot_app.pot.metainfo.xml
-        sha256: 29091d109b7f80038e5280863a3a84f834a6a88896feecc3d426db395c8d6689
+        url: https://raw.githubusercontent.com/pot-app/pot-desktop/9ce1e6422fc855c8c5d34a02e01d81aaf0511fb3/com.pot_app.pot.metainfo.xml
+        sha256: efc26b1aad74e1593f38b2cc019ebd198ea157a6897d05718aad2ca4879a7366
