@@ -132,8 +132,8 @@ modules:
         dest-filename: pot.deb
         only-arches:
           - x86_64
-        url: https://github.com/pot-app/pot-desktop/releases/download/3.0.0/pot_3.0.0_amd64.deb
-        sha256: 72e9c00f03132f7d3f38f22b0b2fe4403cb5fd31a172e83188cea5919c3819e5
+        url: https://github.com/pot-app/pot-desktop/releases/download/3.0.1/pot_3.0.1_amd64.deb
+        sha256: 25e0298af98ac569dc246bd9e2fc5c8ad5d122ee118f8b79f941c009af4c93a3
         x-checker-data:
           type: json
           url: https://api.github.com/repos/pot-app/pot-desktop/releases/latest
@@ -145,8 +145,8 @@ modules:
         dest-filename: pot.deb
         only-arches:
           - aarch64
-        url: https://github.com/pot-app/pot-desktop/releases/download/3.0.0/pot_3.0.0_arm64.deb
-        sha256: cbc2ca0f5594717deb1256217cbd1874b5c63234c66d329b232d71dd33974054
+        url: https://github.com/pot-app/pot-desktop/releases/download/3.0.1/pot_3.0.1_arm64.deb
+        sha256: fea00703f1a896200d1476959a7f0d7512fad096504f65f53f766c9f1b85328e
         x-checker-data:
           type: json
           url: https://api.github.com/repos/pot-app/pot-desktop/releases/latest
