@@ -155,5 +155,11 @@ modules:
             + $version + "/pot_" + $version + "_arm64.deb"'
 
       - type: file
-        url: https://raw.githubusercontent.com/pot-app/pot-desktop/9ce1e6422fc855c8c5d34a02e01d81aaf0511fb3/com.pot_app.pot.metainfo.xml
-        sha256: 6b8b9810492154297c117a2f1f0714f7d238af43a6b3de711a14caf8df9ee226
+        url: https://raw.githubusercontent.com/pot-app/pot-desktop/3.0.2/com.pot_app.pot.metainfo.xml
+        sha256: 7dd100c9d3ba04e176883b22fdcd02f1a932d4e42acc6fc085a68b0d75e8864a
+        x-checker-data:
+          type: json
+          url: https://api.github.com/repos/pot-app/pot-desktop/releases/latest
+          version-query: .tag_name
+          url-query: '"https://raw.githubusercontent.com/pot-app/pot-desktop/"
+            + $version + "/com.pot_app.pot.metainfo.xml"'
