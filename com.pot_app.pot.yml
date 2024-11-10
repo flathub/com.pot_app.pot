@@ -23,8 +23,8 @@ modules:
   - name: webkit2gtk-4.0
     sources:
       - type: archive
-        url: https://webkitgtk.org/releases/webkitgtk-2.46.2.tar.xz
-        sha256: 5aae1c5c0a30d5e9c5831652b6f1bdefc31d75e0ad81cb40185b0aed92ce79b6
+        url: https://webkitgtk.org/releases/webkitgtk-2.46.3.tar.xz
+        sha256: 85e09fa6ff9fea49678ba9975dbc64ea3242833f8f8a7d6a8937b2f292fcb28d
         x-checker-data:
           type: html
           url: https://webkitgtk.org/releases/
@@ -84,8 +84,8 @@ modules:
     sources:
       - type: git
         url: https://github.com/tesseract-ocr/tesseract.git
-        tag: 5.4.1
-        commit: b5f279ec7582dc57f6464557ed938558791f200d
+        tag: 5.5.0
+        commit: 64eab6c457b2337dd690746a5fde5c222b40d5f8
         x-checker-data:
           type: json
           url: https://api.github.com/repos/tesseract-ocr/tesseract/releases/latest
