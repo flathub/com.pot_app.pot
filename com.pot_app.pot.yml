@@ -8,7 +8,7 @@ rename-desktop-file: pot.desktop
 
 finish-args:
   - --socket=x11
-  - --socket=wayland
+  # - --socket=wayland
   - --socket=pulseaudio
   - --share=ipc
   - --share=network
@@ -23,8 +23,8 @@ modules:
   - name: webkit2gtk-4.0
     sources:
       - type: archive
-        url: https://webkitgtk.org/releases/webkitgtk-2.44.2.tar.xz
-        sha256: 523f42c8ff24832add17631f6eaafe8f9303afe316ef1a7e1844b952a7f7521b
+        url: https://webkitgtk.org/releases/webkitgtk-2.46.4.tar.xz
+        sha256: 0eff5f0ab0a2872ec87df62bc32e3289c8af625716ac71e94b298d74e0374176
         x-checker-data:
           type: html
           url: https://webkitgtk.org/releases/
@@ -84,8 +84,8 @@ modules:
     sources:
       - type: git
         url: https://github.com/tesseract-ocr/tesseract.git
-        tag: 5.4.1
-        commit: b5f279ec7582dc57f6464557ed938558791f200d
+        tag: 5.5.0
+        commit: 64eab6c457b2337dd690746a5fde5c222b40d5f8
         x-checker-data:
           type: json
           url: https://api.github.com/repos/tesseract-ocr/tesseract/releases/latest
@@ -96,8 +96,8 @@ modules:
         sources:
           - type: git
             url: https://github.com/DanBloomberg/leptonica.git
-            tag: 1.84.1
-            commit: 7e803e73511fbd320f01314c141d35d2b8491dde
+            tag: 1.85.0
+            commit: 63aef18d98432b8582a1565e241f7bd2ee9cc8d9
             x-checker-data:
               type: json
               url: https://api.github.com/repos/DanBloomberg/leptonica/releases/latest
@@ -132,8 +132,8 @@ modules:
         dest-filename: pot.deb
         only-arches:
           - x86_64
-        url: https://github.com/pot-app/pot-desktop/releases/download/3.0.5/pot_3.0.5_amd64.deb
-        sha256: 10a7f4f8a4220d1e4d616ec50e4130c2646e02299d808af0b5e21aa7f13b0e03
+        url: https://github.com/pot-app/pot-desktop/releases/download/3.0.6/pot_3.0.6_amd64.deb
+        sha256: e19aea3be55892b54815533dbe4fc08e4f9a0286b18afe0c61fbf1713e0efff0
         x-checker-data:
           type: json
           url: https://api.github.com/repos/pot-app/pot-desktop/releases/latest
@@ -145,8 +145,8 @@ modules:
         dest-filename: pot.deb
         only-arches:
           - aarch64
-        url: https://github.com/pot-app/pot-desktop/releases/download/3.0.5/pot_3.0.5_arm64.deb
-        sha256: 779e8d4956a81ba90cbbfd26875220c3d905ba9ee80cf0fd90d1d8a63971986e
+        url: https://github.com/pot-app/pot-desktop/releases/download/3.0.6/pot_3.0.6_arm64.deb
+        sha256: 2428a8413725e459f818202fe037e3d9ae12b06e4f0739bd96164d3ce2aa3097
         x-checker-data:
           type: json
           url: https://api.github.com/repos/pot-app/pot-desktop/releases/latest
@@ -155,8 +155,8 @@ modules:
             + $version + "/pot_" + $version + "_arm64.deb"'
 
       - type: file
-        url: https://raw.githubusercontent.com/pot-app/pot-desktop/3.0.5/com.pot_app.pot.metainfo.xml
-        sha256: 3f617e26b5f09acd87f382115d0c12c8a168332f142c8fdbc1badc24d6e8cf5c
+        url: https://raw.githubusercontent.com/pot-app/pot-desktop/3.0.6/com.pot_app.pot.metainfo.xml
+        sha256: ecdd5b944400c99734d9fe40aa943c1a8ead7c1f33be1ddc09b3ed5e95918c5f
         x-checker-data:
           type: json
           url: https://api.github.com/repos/pot-app/pot-desktop/releases/latest
