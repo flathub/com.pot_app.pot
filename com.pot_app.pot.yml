@@ -1,6 +1,6 @@
 id: com.pot_app.pot
 runtime: org.gnome.Platform
-runtime-version: '46'
+runtime-version: '48'
 sdk: org.gnome.Sdk
 command: pot
 rename-icon: pot
@@ -23,8 +23,8 @@ modules:
   - name: webkit2gtk-4.0
     sources:
       - type: archive
-        url: https://webkitgtk.org/releases/webkitgtk-2.44.1.tar.xz
-        sha256: 425b1459b0f04d0600c78d1abb5e7edfa3c060a420f8b231e9a6a2d5d29c5561
+        url: https://webkitgtk.org/releases/webkitgtk-2.46.6.tar.xz
+        sha256: f2b31de693220ba9bab76ce6ddfe5b0bfab2515cb2b0a70f3c54d4050766c32b
         x-checker-data:
           type: html
           url: https://webkitgtk.org/releases/
@@ -85,8 +85,8 @@ modules:
     sources:
       - type: git
         url: https://github.com/tesseract-ocr/tesseract.git
-        tag: 5.3.4
-        commit: 8ee020e14cf5be4e3f0e9beb09b6b050a1871854
+        tag: 5.5.0
+        commit: 64eab6c457b2337dd690746a5fde5c222b40d5f8
         x-checker-data:
           type: json
           url: https://api.github.com/repos/tesseract-ocr/tesseract/releases/latest
@@ -97,8 +97,8 @@ modules:
         sources:
           - type: git
             url: https://github.com/DanBloomberg/leptonica.git
-            tag: 1.84.1
-            commit: 7e803e73511fbd320f01314c141d35d2b8491dde
+            tag: 1.85.0
+            commit: 63aef18d98432b8582a1565e241f7bd2ee9cc8d9
             x-checker-data:
               type: json
               url: https://api.github.com/repos/DanBloomberg/leptonica/releases/latest
@@ -133,8 +133,8 @@ modules:
         dest-filename: pot.deb
         only-arches:
           - x86_64
-        url: https://github.com/pot-app/pot-desktop/releases/download/2.7.10/pot_2.7.10_amd64.deb
-        sha256: f341429edb089b429a734e09b62888c0c85919fe06a0320cae07f1b110081fcb
+        url: https://github.com/pot-app/pot-desktop/releases/download/3.0.6/pot_3.0.6_amd64.deb
+        sha256: e19aea3be55892b54815533dbe4fc08e4f9a0286b18afe0c61fbf1713e0efff0
         x-checker-data:
           type: json
           url: https://api.github.com/repos/pot-app/pot-desktop/releases/latest
@@ -146,8 +146,8 @@ modules:
         dest-filename: pot.deb
         only-arches:
           - aarch64
-        url: https://github.com/pot-app/pot-desktop/releases/download/2.7.10/pot_2.7.10_arm64.deb
-        sha256: 0d8e2afc9a091f06624b0021a199e83a2867f1daa25148b24371eb283cb0424e
+        url: https://github.com/pot-app/pot-desktop/releases/download/3.0.6/pot_3.0.6_arm64.deb
+        sha256: 2428a8413725e459f818202fe037e3d9ae12b06e4f0739bd96164d3ce2aa3097
         x-checker-data:
           type: json
           url: https://api.github.com/repos/pot-app/pot-desktop/releases/latest
@@ -156,5 +156,11 @@ modules:
             + $version + "/pot_" + $version + "_arm64.deb"'
 
       - type: file
-        url: https://raw.githubusercontent.com/pot-app/pot-desktop/master/com.pot_app.pot.metainfo.xml
-        sha256: f9e9aa15188e6ce6704019b226399e3ca2bf8c429d0b53cdef94ad4d6c7973e2
+        url: https://raw.githubusercontent.com/pot-app/pot-desktop/3.0.6/com.pot_app.pot.metainfo.xml
+        sha256: ecdd5b944400c99734d9fe40aa943c1a8ead7c1f33be1ddc09b3ed5e95918c5f
+        x-checker-data:
+          type: json
+          url: https://api.github.com/repos/pot-app/pot-desktop/releases/latest
+          version-query: .tag_name
+          url-query: '"https://raw.githubusercontent.com/pot-app/pot-desktop/" + $version
+            + "/com.pot_app.pot.metainfo.xml"'
