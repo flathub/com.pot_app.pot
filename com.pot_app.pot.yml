@@ -42,6 +42,7 @@ modules:
       - -D ENABLE_MINIBROWSER=OFF
       - -D ENABLE_WEBDRIVER=OFF
       - -D ENABLE_GAMEPAD=OFF
+      - -D ENABLE_SPEECH_SYNTHESIS=OFF
       - -D ENABLE_BUBBLEWRAP_SANDBOX=OFF # Unused inside flatpak
     modules:
       - shared-modules/libsoup/libsoup-2.4.json
