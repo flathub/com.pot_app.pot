@@ -23,8 +23,8 @@ modules:
   - name: webkit2gtk-4.0
     sources:
       - type: archive
-        url: https://webkitgtk.org/releases/webkitgtk-2.46.6.tar.xz
-        sha256: f2b31de693220ba9bab76ce6ddfe5b0bfab2515cb2b0a70f3c54d4050766c32b
+        url: https://webkitgtk.org/releases/webkitgtk-2.48.2.tar.xz
+        sha256: ec58f6dfc25d3b360388e192f865068d69aab09b4d7df021f90e314d2fa54f37
         x-checker-data:
           type: html
           url: https://webkitgtk.org/releases/
@@ -84,8 +84,8 @@ modules:
     sources:
       - type: git
         url: https://github.com/tesseract-ocr/tesseract.git
-        tag: 5.5.0
-        commit: 64eab6c457b2337dd690746a5fde5c222b40d5f8
+        tag: 5.5.1
+        commit: 3b7c70e34dea179549ed3e995872e2e019eb8477
         x-checker-data:
           type: json
           url: https://api.github.com/repos/tesseract-ocr/tesseract/releases/latest
@@ -132,8 +132,8 @@ modules:
         dest-filename: pot.deb
         only-arches:
           - x86_64
-        url: https://github.com/pot-app/pot-desktop/releases/download/3.0.6/pot_3.0.6_amd64.deb
-        sha256: e19aea3be55892b54815533dbe4fc08e4f9a0286b18afe0c61fbf1713e0efff0
+        url: https://github.com/pot-app/pot-desktop/releases/download/3.0.7/pot_3.0.7_amd64.deb
+        sha256: 6e9ed622a079efcd113c0e28f3f55e5c43b18587acc3fb8f1a6cd076a911b2b7
         x-checker-data:
           type: json
           url: https://api.github.com/repos/pot-app/pot-desktop/releases/latest
@@ -145,8 +145,8 @@ modules:
         dest-filename: pot.deb
         only-arches:
           - aarch64
-        url: https://github.com/pot-app/pot-desktop/releases/download/3.0.6/pot_3.0.6_arm64.deb
-        sha256: 2428a8413725e459f818202fe037e3d9ae12b06e4f0739bd96164d3ce2aa3097
+        url: https://github.com/pot-app/pot-desktop/releases/download/3.0.7/pot_3.0.7_arm64.deb
+        sha256: 8c876f850fa97330501f73ca728e532aaa97d1f14a5785efdc7782a325813ba0
         x-checker-data:
           type: json
           url: https://api.github.com/repos/pot-app/pot-desktop/releases/latest
