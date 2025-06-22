@@ -32,16 +32,18 @@ modules:
           url-template: https://webkitgtk.org/releases/webkitgtk-$version.tar.xz
     buildsystem: cmake-ninja
     config-opts:
-      - -DPORT=GTK
-      - -DCMAKE_BUILD_TYPE=Release
-      - -DUSE_GTK4=OFF
-      - -DUSE_LIBBACKTRACE=OFF
-      - -DENABLE_DOCUMENTATION=OFF
-      - -DENABLE_MINIBROWSER=OFF
-      - -DENABLE_WEBDRIVER=OFF
-      - -DENABLE_GAMEPAD=OFF
-      - -DUSE_SOUP2=ON
-      - -DENABLE_BUBBLEWRAP_SANDBOX=OFF # Unused inside flatpak
+      - -D CMAKE_BUILD_TYPE=Release
+      - -D PORT=GTK
+      - -D USE_FLITE=OFF
+      - -D USE_GTK4=OFF
+      - -D USE_LIBBACKTRACE=OFF
+      - -D USE_SOUP2=ON
+      - -D ENABLE_DOCUMENTATION=OFF
+      - -D ENABLE_MINIBROWSER=OFF
+      - -D ENABLE_WEBDRIVER=OFF
+      - -D ENABLE_GAMEPAD=OFF
+      - -D ENABLE_SPEECH_SYNTHESIS=OFF
+      - -D ENABLE_BUBBLEWRAP_SANDBOX=OFF # Unused inside flatpak
     modules:
       - shared-modules/libsoup/libsoup-2.4.json
 
