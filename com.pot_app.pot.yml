@@ -23,8 +23,8 @@ modules:
   - name: webkit2gtk-4.0
     sources:
       - type: archive
-        url: https://webkitgtk.org/releases/webkitgtk-2.48.6.tar.xz
-        sha256: d9ac3034b7a39c2aaa567e6112b3124b158e591a74439e46974a031dd0e44e24
+        url: https://webkitgtk.org/releases/webkitgtk-2.50.1.tar.xz
+        sha256: 33e912ee6e3cdb4b9803715f50686af85a60af47f1cf72a6acc6a2db1bb3d9fe
         x-checker-data:
           type: html
           url: https://webkitgtk.org/releases/
@@ -98,8 +98,8 @@ modules:
         sources:
           - type: git
             url: https://github.com/DanBloomberg/leptonica.git
-            tag: 1.85.0
-            commit: 63aef18d98432b8582a1565e241f7bd2ee9cc8d9
+            tag: 1.86.0
+            commit: dbb48b0fd0e10e943ecd9bab7439701842894733
             x-checker-data:
               type: json
               url: https://api.github.com/repos/DanBloomberg/leptonica/releases/latest
