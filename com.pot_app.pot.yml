@@ -23,8 +23,8 @@ modules:
   - name: webkit2gtk-4.0
     sources:
       - type: archive
-        url: https://webkitgtk.org/releases/webkitgtk-2.48.6.tar.xz
-        sha256: d9ac3034b7a39c2aaa567e6112b3124b158e591a74439e46974a031dd0e44e24
+        url: https://webkitgtk.org/releases/webkitgtk-2.50.5.tar.xz
+        sha256: 8737631bac3e9c7ad3e5208f9370e076c09d9c45b39980021ce54edadcc6f94f
         x-checker-data:
           type: html
           url: https://webkitgtk.org/releases/
@@ -86,8 +86,8 @@ modules:
     sources:
       - type: git
         url: https://github.com/tesseract-ocr/tesseract.git
-        tag: 5.5.1
-        commit: 3b7c70e34dea179549ed3e995872e2e019eb8477
+        tag: 5.5.2
+        commit: 6e1d56a847e697de07b38619356550e5cf4e8633
         x-checker-data:
           type: json
           url: https://api.github.com/repos/tesseract-ocr/tesseract/releases/latest
@@ -98,8 +98,8 @@ modules:
         sources:
           - type: git
             url: https://github.com/DanBloomberg/leptonica.git
-            tag: 1.85.0
-            commit: 63aef18d98432b8582a1565e241f7bd2ee9cc8d9
+            tag: 1.87.0
+            commit: 13275a278eb55b5746e33f95fbf5a2c8f604b3ab
             x-checker-data:
               type: json
               url: https://api.github.com/repos/DanBloomberg/leptonica/releases/latest
