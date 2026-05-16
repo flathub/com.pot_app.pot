@@ -23,8 +23,8 @@ modules:
   - name: webkit2gtk-4.0
     sources:
       - type: archive
-        url: https://webkitgtk.org/releases/webkitgtk-2.48.6.tar.xz
-        sha256: d9ac3034b7a39c2aaa567e6112b3124b158e591a74439e46974a031dd0e44e24
+        url: https://webkitgtk.org/releases/webkitgtk-2.50.6.tar.xz
+        sha256: 2b281abf8894ffc6172152e5660b75eeeedbe1cc43d6783d09dc79f7c865bb42
         x-checker-data:
           type: html
           url: https://webkitgtk.org/releases/
@@ -44,6 +44,7 @@ modules:
       - -D ENABLE_GAMEPAD=OFF
       - -D ENABLE_SPEECH_SYNTHESIS=OFF
       - -D ENABLE_BUBBLEWRAP_SANDBOX=OFF # Unused inside flatpak
+      - -DENABLE_UNIFIED_BUILDS=OFF
     modules:
       - shared-modules/libsoup/libsoup-2.4.json
 
